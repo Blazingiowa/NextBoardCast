@@ -1,6 +1,4 @@
 import type {AppProps} from 'next/app'
-import Script from "next/script";
-import Layout from "../../components/layout/Layout";
 import {NextPage} from "next";
 import {ReactElement, ReactNode} from "react";
 

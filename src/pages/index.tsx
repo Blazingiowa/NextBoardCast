@@ -1,14 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import toast,{Toaster} from "react-hot-toast";
 import {ReactElement} from "react";
 import Layout from "../../components/layout/Layout";
-import AuthLayout from "../../components/layout/AuthLayout";
-import {NextPageWithLayout} from "./_app";
 import Script from "next/script";
-
-const notify=()=>toast('Here is Your Toast');
 
 function Home():JSX.Element {
   return (
